@@ -1,0 +1,63 @@
+body {
+    font-family: "Cabin", sans-serif;
+}
+header {
+    background-color: #373A3C;
+    h4{
+        color: white;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 37pt;
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: grey;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+.carousel-indicators [aria-current]{
+    background-color: black;
+}
+
+.card-title{
+    color: #212529;
+}
+.card-text{
+    color: #707070;
+}
+
+footer {
+    background-color: #373A3C;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    h2{
+        font-size: 37pt;
+    }
+}
+.formulario {
+    background-color: #DC3545;
+    color: white;
+    span {
+        font-family: "Lobster", sans-serif;
+    }
+}
